@@ -55,3 +55,61 @@ function tellJoke() {
 }
 
 tellJoke();
+
+//Segment 2: Functions with Parameters (One or More)
+
+//Personalized Greeting
+//Write a function named personalGreeting that takes a name as a parameter and logs a greeting string (e.g., "Hello, [name]!") to the console.
+
+function personalGreeting() {
+    const name = ("Fabian");
+    const greeting = ("Hello, " + [name] + "!");
+    console.log(greeting);
+};
+
+personalGreeting();
+
+//Sum of Two Numbers
+//Create a function called add that takes two numbers as parameters and logs their sum to the console.
+
+function add() {
+    const num1 = 22;
+    const num2 = 23;
+    const result = (num1 + num2);
+    console.log(result);
+}
+
+add();
+
+//Age in Months
+//Write a function named ageInMonths that takes a person's age in years as a parameter and logs their age in months (e.g., age * 12).
+
+function ageInMonths() {
+    age = 22;
+    monthsInAYear = 12;
+    console.log(age * monthsInAYear + " " + "Months");
+};
+
+ageInMonths();
+
+//Temperature Converter
+//Create a function called celsiusToFahrenheit that takes a temperature in Celsius as a parameter and logs the equivalent temperature in Fahrenheit to the console.
+
+function celsiusToFahrenheit() {
+    celsius = 11;
+    fahrenheitFormula = (celsius * 9.0/5.0) + 32.0;
+    console.log(fahrenheitFormula + " " + "fahrenheit");
+}
+
+celsiusToFahrenheit();
+
+//Full Name
+//Write a function named getFullName that takes two parameters, firstName and lastName, and logs the full name as a single string (e.g., "John Doe") to the console.
+
+function getFullName() {
+    firstName = "Fabian";
+    lastName = "Olsson";
+    console.log(firstName + " " + lastName);
+};
+
+getFullName();
